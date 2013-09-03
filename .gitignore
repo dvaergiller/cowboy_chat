@@ -1,4 +1,5 @@
 *.beam
+*.app
 deps/*
 rel/files
 rel/chat
