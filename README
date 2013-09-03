@@ -1,0 +1,17 @@
+To compile application:
+$> rebar get-deps
+$> rebar compile
+
+To start Erlang shell:
+$> erl -pa ./ebin ./deps/*/ebin
+
+In the shell:
+application:start(crypto).
+application:start(ranch).
+application:start(cowboy).
+application:start(chat).
+
+Then, open two or more browsers and visit:
+http://localhost:8080/index.html
+
+
