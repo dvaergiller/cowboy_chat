@@ -1,0 +1,8 @@
+run_erl [51153] Tue Sep  3 11:17:45 2013
+Args before exec of shell:
+run_erl [51153] Tue Sep  3 11:17:45 2013
+argv[0] = sh
+run_erl [51153] Tue Sep  3 11:17:45 2013
+argv[1] = -c
+run_erl [51153] Tue Sep  3 11:17:45 2013
+argv[2] = exec /Users/mattija/Kod/Erlang/cowboy_chat/rel/chat/bin/chat console '' 
