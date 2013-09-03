@@ -1,0 +1,5 @@
+*.beam
+deps/*
+rel/files
+rel/chat
+
