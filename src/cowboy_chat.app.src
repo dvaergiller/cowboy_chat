@@ -1,4 +1,4 @@
-{application, chat,
+{application, cowboy_chat,
  [
   {description, ""},
   {vsn, "1"},
@@ -8,6 +8,6 @@
                   stdlib,
 		  cowboy
                  ]},
-  {mod, { chat_app, []}},
+  {mod, { cowboy_chat_app, []}},
   {env, []}
  ]}.

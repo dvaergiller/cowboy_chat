@@ -1,4 +1,4 @@
--module(chat_app).
+-module(cowboy_chat_app).
 
 -behaviour(application).
 

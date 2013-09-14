@@ -1,4 +1,4 @@
--module(chat).
+-module(cowboy_chat).
 -export([start/0]).
 
 start() ->

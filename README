@@ -1,17 +1,9 @@
-To compile application:
-$> rebar get-deps
-$> rebar compile
+Very simple usage example of the cowboy and bullet projects.
 
-To start Erlang shell:
-$> erl -pa ./ebin ./deps/*/ebin
+It is a simple web based chat application which, using the "bullet"
+handler attempts to use websockets whenever the client supports it but
+falls back on long polling if necessary.
 
-In the shell:
-application:start(crypto).
-application:start(ranch).
-application:start(cowboy).
-application:start(chat).
-
-Then, open two or more browsers and visit:
-http://localhost:8080/index.html
-
+The server is hard-coded to listen on port 8080 and /index.html is
+required in the URL to access the chat.
 
